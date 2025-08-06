@@ -2,6 +2,7 @@
   "name": "SilenCurrBot",
   "description": "Bot for currency exchange",
   "version": "1.0.0",
+  "bb_sync_version": "1.0",
   "commands": [
     "start.yml",
     "рубли_на_гривны.yml",
