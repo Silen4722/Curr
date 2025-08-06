@@ -1,9 +1,0 @@
-command: Обменять гривны на рубли
-answer: |
-  Хорошо! Введите сумму в гривнах, которую хотите обменять.
-  Текущий курс: **1 ₴ = 2.4 ₽**
-wait_for_answer: true
-save_to: uah_amount
-js_code: return uah_amount * 2.4;
-next_answer: |
-  За **$uah_amount$** гривен вы получите примерно **$uah_amount * 2.4$** рублей.
