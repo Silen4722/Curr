@@ -1,0 +1,9 @@
+command: Обменять рубли на гривны
+answer: |
+  Отлично! Введите сумму в рублях, которую хотите обменять.
+  Текущий курс: **1.7 ₽ = 1 ₴**
+wait_for_answer: true
+save_to: rub_amount
+js_code: return rub_amount / 1.7;
+next_answer: |
+  За **$rub_amount$** рублей вы получите примерно **$rub_amount / 1.7$** гривен.
