@@ -1,7 +1,0 @@
-{
-  "name": "SilenCurrBot",
-  "description": "Bot for currency exchange",
-  "version": "1.0.0",
-  "bb_sync_version": "1.0",
-  "commands_file": "commands.json"
-}
